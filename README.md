@@ -30,6 +30,16 @@ After training, we evaluate the tuned model against the original model and visua
 - Our reward model is trained on general sentiment, not specific to our model's outputs.
 - The process is simplified and accelerated for demonstration purposes.
 
+### This approach has some advantages:
+
+- It's more scalable, as we don't need to collect new human feedback.
+- It leverages existing high-quality labeled data.
+
+### But it also has limitations:
+
+- The reward model might not capture all aspects of what makes a "good" movie review.
+- It doesn't adapt to the specific outputs of our model.
+
 While not a full RLHF implementation, the aim of this project is to provide valuable insights into the principles of aligning language models with specific criteria using reinforcement learning techniques.
 
 ## Getting Started
