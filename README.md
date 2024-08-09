@@ -22,13 +22,15 @@ Using the fine-tuned sentiment analysis model as a proxy for human feedback, we 
 
 After training, we evaluate the tuned model against the original model and visualize the training metrics to demonstrate the effects of our simulated RLHF process.
 
+![](img/rlhf-imdb.png)
+
 ## Key Differences from True RLHF
 
 - We use pre-labeled IMDB reviews instead of collecting real-time human feedback.
 - Our reward model is trained on general sentiment, not specific to our model's outputs.
 - The process is simplified and accelerated for demonstration purposes.
 
-While not a full RLHF implementation, this project provides valuable insights into the principles of aligning language models with specific criteria using reinforcement learning techniques.
+While not a full RLHF implementation, the aim of this project is to provide valuable insights into the principles of aligning language models with specific criteria using reinforcement learning techniques.
 
 ## Getting Started
 
