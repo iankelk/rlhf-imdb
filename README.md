@@ -22,7 +22,7 @@ Using the fine-tuned sentiment analysis model as a proxy for human feedback, we 
 
 After training, we evaluate the tuned model against the original model and visualize the training metrics to demonstrate the effects of our simulated RLHF process.
 
-![](img/rlhf-imdb.png)
+![](./img/rlhf-imdb.png)
 
 ## Key Differences from True RLHF
 
